@@ -1,0 +1,48 @@
+# Credentials and secrets
+*.pem
+*.key
+*.crt
+*credentials*
+*config.json
+.env
+.env.*
+
+# Cloud provider credentials
+.aws/credentials
+.azure/
+.config/gcloud/
+.oci/
+.kube/config
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+tmp/
+temp/
+*.tmp
